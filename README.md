@@ -10,20 +10,8 @@ The scripts are aimed at improving efficiency in compliance reporting by automat
 ## Script Overview
 
 1. **Azure_Storage.ps1**
-   - Extracts compliance-related data from databases and CSV files.
-   - Filters and processes data based on predefined compliance criteria.
+   -This script audits the associations between Azure storage accounts and various services (e.g., VMs, App Services, SQL Servers) and collects configuration details related to networking, security, and encryption. The results are exported into an Excel file for reporting purposes
 
-2. **.ps1**
-   - Compiles the extracted data into a formatted report.
-   - Outputs the report in various formats such as CSV, Excel, or PDF.
-
-3. **Error_Handling.ps1**
-   - Contains error-handling logic to catch and log issues during the extraction or reporting process.
-   - Notifies the administrator of any failures via email.
-
-4. **Notification_Sender.ps1**
-   - Sends email notifications with the status of the compliance report generation.
-   - Provides summary logs or attaches generated reports in the email.
 
 ## Usage
 
