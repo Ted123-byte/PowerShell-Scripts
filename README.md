@@ -9,8 +9,11 @@ The scripts are aimed at improving efficiency in compliance reporting by automat
 
 ## Script Overview
 
-1. **Azure_Storage.ps1**
+1. **AzureStorageAudit.ps1**
    -This script audits the associations between Azure storage accounts and various services (e.g., VMs, App Services, SQL Servers) and collects configuration details related to networking, security, and encryption. The results are exported into an Excel file for reporting purposes
+
+2.**key_vault.ps1**
+   -This PowerShell script is designed to audit the compliance of Azure Key Vault configurations with a specific security policy: Ensure Azure Key Vault is not Publicly Accessible
 
 
 ## Usage
