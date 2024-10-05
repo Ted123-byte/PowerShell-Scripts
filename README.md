@@ -1,6 +1,6 @@
 # PowerShell Scripts for Compliance Reporting
 
-This repository contains a collection of PowerShell scripts developed during my time at Deloitte, specifically designed for automating and enhancing compliance reporting processes.
+This repository contains a collection of PowerShell scripts I have developed, specifically designed for automating and enhancing compliance reporting processes.
 
 ## Purpose
 
