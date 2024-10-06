@@ -15,6 +15,9 @@ The scripts are aimed at improving efficiency in compliance reporting by automat
 2. **key_vault.ps1**
    -This PowerShell script is designed to audit the compliance of Azure Key Vault configurations with a specific security policy: Ensure Azure Key Vault is not Publicly Accessible
 
+3. **DiskBlockedAccess.ps1**
+   -This PowerShell script is aimed at ensuring that Azure Managed Disks attached to Virtual Machines are blocked from public access by default.
+
 
 ## Usage
 
