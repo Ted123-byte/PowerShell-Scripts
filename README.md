@@ -26,4 +26,4 @@ To run the scripts, clone this repository and execute the scripts from your Powe
 ```bash
 git clone https://github.com/Ted123-byte/PowerShell-Scripts.git
 cd PowerShell-Scripts
-./x.ps1
+./(script).ps1
